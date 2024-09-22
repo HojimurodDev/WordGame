@@ -1,0 +1,81 @@
+/* Umumiy stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* H1 sarlavhasi */
+h1 {
+    background-color: #00975f;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Textarea */
+textarea {
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Tugmalar */
+button {
+    margin-top: 10px;
+    background-color: #00975f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Tugma hover holati */
+button:hover {
+    background-color: #007a4a;
+}
+
+/* O'yin qismi */
+#gameArea {
+    margin-top: 20px;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+/* Mobil qurilmalarda responsivlik */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #gameArea {
+        margin-top: 10px;
+    }
+}

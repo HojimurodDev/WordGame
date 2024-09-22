@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So'zlarni Yodlash O'yini</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <h1>So'zlarni Yodlash O'yini</h1>
+    
+    <!-- 1-bo'lim: So'z va tarjimani kiritish -->
+    <div id="inputArea">
+        <h2>So'z va Tarjimasini Kiriting</h2>
+        <textarea id="wordInput" placeholder="so'z - tarjima" rows="5"></textarea>
+        <br>
+        <button id="startGame">O'yinni Boshlash</button>
+    </div>
+
+    <!-- 2-bo'lim: O'yin qismi -->
+    <div id="gameArea" style="display:none;">
+        <h3>Tarjimasini Kiriting</h3>
+        <h2 id="randomWord">Random so'z bu yerda chiqadi</h2>
+        <input id="translationInput" placeholder="Tarjimani kiriting">
+        <button id="checkAnswer">Tekshirish</button>
+        <button id="nextWord" style="display:none;">Keyingi so'z</button>
+        <div id="timer">Qolgan vaqt: <span id="timeLeft">30</span> soniya</div>
+        <div id="stars">Yulduzlar: <span id="starCount">3</span></div>
+    </div>
+
+    <button id="restartGame" style="display:none;">Yana o'ynash</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
